@@ -59,7 +59,7 @@ export default function App() {
           style={{ transform: 'translateX(-50%) translateY(-50%)' }}
         >
           <img
-            src="R16_Vinyl_Disc.jpg"
+            src="R16_Vinyl_Disc.png"
             className="w-full h-full object-cover rounded-full drop-shadow-2xl pointer-events-none"
             alt="Spinning Vinyl"
           />
@@ -110,7 +110,7 @@ export default function App() {
           onClick={() => setAppState('inspecting')}
         >
           <img 
-            src="R16_Vinyl_Front.jpg" 
+            src="R16_Vinyl_Front.png" 
             className="w-full h-full object-cover rounded-sm" 
             alt="Record Cover" 
           />
